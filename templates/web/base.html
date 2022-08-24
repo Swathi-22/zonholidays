@@ -1,0 +1,131 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+<title>Zon Holidays</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="{% static 'web/images/favicon.png' %}" type="image/gif" sizes="20x20">
+
+<link rel="stylesheet" href="{% static 'web/css/select2.min.css' %}">
+
+<link rel="stylesheet" href="{% static 'web/css/jquery.fancybox.min.css' %}">
+
+<link href="{% static 'web/css/boxicons.min.css' %}" rel='stylesheet'>
+
+<link rel="stylesheet" href="{% static 'web/css/swiper-bundle.min.css' %}">
+
+<link rel="stylesheet" href="{% static 'web/css/bootstrap.min.css' %}">
+
+<link rel="stylesheet" href="{% static 'web/css/bootstrap-icons.css' %}">
+
+<link rel="stylesheet" href="{% static 'web/css/style.css' %}">
+<link rel="stylesheet" href="{% static 'web/css/responsive.css' %}">
+</head>
+<body>
+
+<div class="preloader">
+<div class="loader">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+
+
+<div class="category-sidebar-wrapper">
+    <div class="category-sidebar">
+    <div class="category-header d-flex justify-content-between align-items-center">
+    <h4>Category</h4>
+    <div class="category-toggle">
+    <i class="bi bi-x-lg"></i>
+    </div>
+    </div>
+    <div class="row row-cols-lg-3 row-cols-2 gy-5 mt-3">
+    <div class="col">
+    <a class="category-box" href="package.html">
+    <div class="cate-icon mx-auto">
+    <img src="{% static 'web/images/icons/cate1.svg' %}" alt="">
+    </div>
+    <h5>Adventure</h5>
+    </a>
+    </div>
+    <div class="col">
+    <a class="category-box" href="package.html">
+    <div class="cate-icon mx-auto">
+    <img src="{% static 'web/images/icons/cate2.svg' %}" alt="">
+    </div>
+    <h5>Group Tour</h5>
+    </a>
+    </div>
+    <div class="col">
+    <a class="category-box" href="package.html">
+    <div class="cate-icon mx-auto">
+    <img src="{% static 'web/images/icons/cate3.svg' %}" alt="">
+    </div>
+    <h5>Couple Tour</h5>
+    </a>
+    </div>
+    <div class="col">
+    <a class="category-box" href="package.html">
+    <div class="cate-icon mx-auto">
+    <img src="{% static 'web/images/icons/cate4.svg' %}" alt="">
+    </div>
+    <h5>Single Tour</h5>
+    </a>
+    </div>
+    <div class="col">
+    <a class="category-box" href="package.html">
+    <div class="cate-icon mx-auto">
+    <img src="{% static 'web/images/icons/cate5.svg' %}" alt="">
+    </div>
+    <h5>Honeymoon</h5>
+    </a>
+    </div>
+    <div class="col">
+    <a class="category-box" href="package.html">
+    <div class="cate-icon mx-auto">
+    <img src="{% static 'web/images/icons/cate6.svg' %}" alt="">
+    </div>
+    <h5>Sea Beach</h5>
+    </a>
+    </div>
+    <div class="col">
+    <a class="category-box" href="package.html">
+    <div class="cate-icon mx-auto">
+    <img src="{% static 'web/images/icons/cate7.svg' %}" alt="">
+    </div>
+    <h5>Mountain Tour</h5>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    {% include 'web/partials/header.html' %}
+  
+    {% block content %}
+  
+    {% endblock %}
+   
+    {% include 'web/partials/footer.html' %}
+
+ 
+<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="{% static 'web/js/jquery-3.6.0.min.js' %}"></script>
+<script src="{% static 'web/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'web/js/chain_fade.js' %}"></script>
+<script src="{% static 'web/js/owl.carousel.min.js' %}"></script>
+<script src="{% static 'web/js/swiper-bundle.min.js' %}"></script>
+<script src="{% static 'web/js/jquery.fancybox.min.js' %}"></script>
+<script src="{% static 'web/js/select2.min.js' %}"></script>
+<script src="{% static 'web/js/jquery-ui.js' %}"></script>
+
+<script src="{% static 'web/js/main.js' %}"></script>
+<script src="{% static 'web/js/custom-swiper.js' %}"></script>
+
+<script src="{% static 'web/js/email-decode.min.js' %}"></script>
+</body>
+</html>
