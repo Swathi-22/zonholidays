@@ -14,13 +14,14 @@
                                     <i class="bi bi-geo-alt"></i>
                                 </div>
                                 <div class="searchbox-input">
-                                    <label for="deatination_drop">Destination</label>
-                                    <select data-placeholder="Where Are You Going?" id="deatination_drop">
-                                        <option value="">Where Are You Going?</option>
-                                        <optgroup label="India">
+                                    <label for="deatination_drop">From</label>
+                                    <select  id="deatination_drop">
+                                        <!-- <option value="">Where Are You Going?</option> -->
+                                        <optgroup>
                                             <option>
-                                                Solt Lake
+                                                {{find_package.from_place}}
                                             </option>
+                                            {% comment %}
                                             <option>
                                                 Kolkata
                                             </option>
@@ -33,8 +34,9 @@
                                             <option>
                                                 New Delhi
                                             </option>
+                                            {% endcomment %}
                                         </optgroup>
-                                        <optgroup label=" Bangladash">
+                                        <!-- <optgroup label=" Bangladash">
                                             <option>
                                                 Cox's Bazer
                                             </option>
@@ -44,7 +46,7 @@
                                             <option>
                                                 Banderban
                                             </option>
-                                        </optgroup>
+                                        </optgroup> -->
                                     </select>
                                 </div>
                             </div>
@@ -1262,98 +1264,73 @@
 </div>
 
 
-<div class="blog-area blog-style-two pt-110">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7">
-                <div class="section-head-gamma text-start">
-                    <h2>Latest Blog</h2>
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <div class="blog-btn text-lg-end"><a href="blog.html" class="button-fill-round">View All</a></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="blog-card-gamma">
-                    <div class="blog-thumb">
-                        <a href="blog-details.html">
-                            <img src="{% static 'web/images/blog/blog-md-1.png' %}" alt="">
-                        </a>
-                        <div class="blog-lavel">
-                            <a href="#">Tour</a>
-                        </div>
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-body-top">
-                            <a href="#" class="blog-writer"><i class="bi bi-person-circle"></i> By John Smith </a>
-                            <a href="#" class="blog-comments"><i class="bi bi-calendar3"></i> Novembar 16, 2021</a>
-                        </div>
-                        <h4 class="blog-title"><a href="blog-details.html">vitae tempor convallis, mi ligula an
-                                suscipit nunc, ornare suscipit.</a></h4>
+<div class="container mt-50">
+    <form id="form" method="POST" class="ajax reload">
+        {% csrf_token %}
+        <div class="contact-form-wrap">
+            <h4>Get a free Keystroke quote now</h4>
+            <p>Your email address will not be published. Required fields are marked *</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="custom-input-group">
+                        <label for="name">Name</label>
+                        <!-- <input type="text" placeholder="Your name" id="name"> -->
+                        {{forms.name}}
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="blog-card-gamma">
-                    <div class="blog-thumb">
-                        <a href="blog-details.html">
-                            <img src="{% static 'web/images/blog/blog-md-2.png' %}" alt="">
-                        </a>
-                        <div class="blog-lavel">
-                            <a href="#">Travel</a>
-                        </div>
+                <div class="col-lg-6">
+                    <div class="custom-input-group">
+                        <label for="email">Email</label>
+                        <!-- <input type="text" placeholder="Your Email" id="email"> -->
+                        {{forms.email}}
                     </div>
-                    <div class="blog-content">
-                        <div class="blog-body-top">
-                            <a href="#" class="blog-writer"><i class="bi bi-person-circle"></i> By John Smith </a>
-                            <a href="#" class="blog-comments"><i class="bi bi-calendar3"></i> Novembar 16, 2021</a>
-                        </div>
-                        <h4 class="blog-title"><a href="blog-details.html">Mauris commodo massa vel diamnat
-                                feugiat sagittis Nunc maxim.</a></h4>
+                </div>
+                <div class="col-lg-6">
+                    <div class="custom-input-group">
+                        <label for="email">Phone</label>
+                        <!-- <input type="text" placeholder="Your Email" id="phone"> -->
+                        {{forms.phone}}
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="custom-input-group">
+                        <label for="email">Subject</label>
+                        <!-- <input type="text" placeholder="Your Email" id="subject"> -->
+                        {{forms.subject}}
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="blog-card-gamma">
-                    <div class="blog-thumb">
-                        <a href="blog-details.html">
-                            <img src="{% static 'web/images/blog/blog-md-3.png' %}" alt="">
-                        </a>
-                        <div class="blog-lavel">
-                            <a href="#">Guide</a>
-                        </div>
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-body-top">
-                            <a href="#" class="blog-writer"><i class="bi bi-person-circle"></i> By John Smith </a>
-                            <a href="#" class="blog-comments"><i class="bi bi-calendar3"></i> Novembar 16, 2021</a>
-                        </div>
-                        <h4 class="blog-title"><a href="blog-details.html">Nulla urna leo, volutpat eu maurisa eget
-                                luctus malesuada urna.</a></h4>
-                    </div>
+            <div class="custom-input-group">
+                <!-- <textarea cols="20" rows="7" placeholder="Your message"></textarea> -->
+                {{forms.message}}
+            </div>
+            <div class="custom-input-group">
+                <div class="submite-btn">
+                    <button type="submit">Send Message</button>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
 </div>
 
 
-<div class="social-activity-area mt-120">
+<div class="social-activity-area mt-70">
     <div class="container-fluid p-0">
         <div class="swiper social-activity-slider">
             <div class="swiper-wrapper">
+                {% for images in gallery %}
                 <div class="swiper-slide">
                     <div class="social-card">
                         <div class="social-thumb">
-                            <img src="{% static 'web/images/gallary/social1.png' %}" alt="">
+                            <img src="{{images.image.crop.251x252}}" alt="">
                         </div>
-                        <a class="social-overlay" href="#">
-                            <i class='bx bxl-facebook'></i>
+                        <a class="social-overlay" href="{% url 'web:gallery' %}">
+                            <!-- <i class='bx bxl-facebook'></i> -->
                         </a>
                     </div>
                 </div>
+                {% endfor %}
+                {% comment %}
                 <div class="swiper-slide">
                     <div class="social-card">
                         <div class="social-thumb">
@@ -1394,6 +1371,7 @@
                         </a>
                     </div>
                 </div>
+                {% endcomment %}
             </div>
         </div>
     </div>

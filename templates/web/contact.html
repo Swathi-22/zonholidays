@@ -65,7 +65,8 @@
         </div>
     </div>
     <div class="container mt-120">
-        <form action="#" id="contact_form">
+        <form id="form" method="POST" class="ajax reload">
+            {% csrf_token %}
             <div class="contact-form-wrap">
                 <h4>Get a free Keystroke quote now</h4>
                 <p>Your email address will not be published. Required fields are marked *</p>
@@ -73,18 +74,35 @@
                     <div class="col-lg-6">
                         <div class="custom-input-group">
                             <label for="name">Name</label>
-                            <input type="text" placeholder="Your name" id="name">
+                            <!-- <input type="text" placeholder="Your name" id="name"> -->
+                            {{forms.name}}
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="custom-input-group">
                             <label for="email">Email</label>
-                            <input type="text" placeholder="Your Email" id="email">
+                            <!-- <input type="text" placeholder="Your Email" id="email"> -->
+                            {{forms.email}}
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="custom-input-group">
+                            <label for="email">Phone</label>
+                            <!-- <input type="text" placeholder="Your Email" id="phone"> -->
+                            {{forms.phone}}
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="custom-input-group">
+                            <label for="email">Subject</label>
+                            <!-- <input type="text" placeholder="Your Email" id="subject"> -->
+                            {{forms.subject}}
                         </div>
                     </div>
                 </div>
                 <div class="custom-input-group">
-                    <textarea cols="20" rows="7" placeholder="Your message"></textarea>
+                    <!-- <textarea cols="20" rows="7" placeholder="Your message"></textarea> -->
+                    {{forms.message}}
                 </div>
                 <div class="custom-input-group">
                     <div class="submite-btn">
