@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Gallery,FindPackage,Destination,Contact
+from .models import Gallery,Contact
 # Register your models here.
 
 
@@ -8,14 +8,14 @@ class GalleryAdmin(admin.ModelAdmin):
     list_display = ( 'image',)
 
 
-@admin.register(FindPackage)
-class FindPackageAdmin(admin.ModelAdmin):
-    list_display = ( 'destination','persons','date',)
+# @admin.register(FindPackage)
+# class FindPackageAdmin(admin.ModelAdmin):
+#     list_display = ( 'destination','persons','date',)
 
 
-@admin.register(Destination)
-class DestinationAdmin(admin.ModelAdmin):
-    list_display = ( 'from_place','to_place',)
+# @admin.register(Destination)
+# class DestinationAdmin(admin.ModelAdmin):
+#     list_display = ( 'from_place','to_place',)
 
 
 @admin.register(Contact)

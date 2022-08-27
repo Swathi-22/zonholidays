@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Gallery,FindPackage
+from .models import Gallery
 from .forms import ContactForm
 from django.http import HttpResponse
 import json
@@ -7,7 +7,7 @@ import json
 # Create your views here.
 
 def index(request):
-    find_package=FindPackage.objects.all()
+    
     gallery=Gallery.objects.all()
     forms = ContactForm(request.POST or None)
     if request.method == 'POST':
@@ -29,7 +29,6 @@ def index(request):
         return HttpResponse(json.dumps(response_data), content_type='application/javascript')
     else:
         context = {
-            "find_package":find_package,
             "forms":forms,
             "gallery":gallery
         }
