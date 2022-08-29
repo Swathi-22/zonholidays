@@ -1,6 +1,7 @@
 from tabnanny import verbose
 from django.db import models
 from versatileimagefield.fields import VersatileImageField,PPOIField
+from tinymce.models import HTMLField
 # Create your models here.
 
 class Gallery(models.Model):
@@ -65,3 +66,15 @@ class Contact(models.Model):
 
     def __str__(self):
         return self.name   
+
+
+
+class Testimonial(models.Model):
+    name=models.CharField(max_length=225)
+    designation=models.CharField(max_length=225)
+    image=VersatileImageField('Image',upload_to='testimonials/',ppoi_field='ppoi' )
+    ppoi = PPOIField('Image PPOI')
+    decription=HTMLField(blank=True, null=True)
+
+    def __str__(self):
+        return str(self.name)

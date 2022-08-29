@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Gallery,Contact
+from .models import Gallery,Contact,Testimonial
 # Register your models here.
 
 
@@ -21,3 +21,8 @@ class GalleryAdmin(admin.ModelAdmin):
 @admin.register(Contact)
 class ContactAdmin(admin.ModelAdmin):
     list_display = ( 'name','email','subject',)
+
+
+@admin.register(Testimonial)
+class TestimonialAdmin(admin.ModelAdmin):
+    list_display = ( 'name','designation',)

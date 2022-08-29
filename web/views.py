@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Gallery
+from .models import Gallery,Testimonial
 from .forms import ContactForm
 from django.http import HttpResponse
 import json
@@ -7,7 +7,7 @@ import json
 # Create your views here.
 
 def index(request):
-    
+    testimonial = Testimonial.objects.all()
     gallery=Gallery.objects.all()
     forms = ContactForm(request.POST or None)
     if request.method == 'POST':
@@ -30,7 +30,8 @@ def index(request):
     else:
         context = {
             "forms":forms,
-            "gallery":gallery
+            "gallery":gallery,
+            "testimonial":testimonial,
         }
     return render(request,'web/index.html',context)
 

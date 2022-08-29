@@ -1034,6 +1034,7 @@
             <div class="col-lg-12">
                 <div class="swiper testimonial-slider-two">
                     <div class="swiper-wrapper">
+                        {% for testimonials in testimonial %}
                         <div class="swiper-slide">
                             <div class="testimonial-card-gamma mx-auto">
                                 <div class="testimonial-quote-icon">
@@ -1042,24 +1043,17 @@
                                 <div class="testimonial-card-body">
                                     <div class="review-texts">
                                         <p>
-                                            Duis rutrum nisl urna. Maecenas vel libero faucibus
-                                            nisi venenatis hendrerit a id lectus. Suspendissendt
-                                            molestie turpis nec lacinia vehicula. Quisque eget
-                                            volutpat purus. Aenean blandit magna maximus landi
-                                            quam facilisis, tempor porttitor elit hendrerit.
-                                            Aliquam cursus arcu vel bibendum pulvinar. Sed
-                                            dictumtr blandit interdum. Sed pellentesque at nunc
-                                            eget consectetur.
+                                            {{testimonials.decription|safe}}
                                         </p>
                                     </div>
                                     <div class="testimonial-info">
                                         <div class="reviewr-info">
                                             <div class="single-thumb">
-                                                <img src="{% static 'web/images/reviewer/testti-thumb1.png' %}" alt="">
+                                                <img src="{{testimonials.image.crop.100x100}}" alt="">
                                             </div>
                                             <div class="reviwer-info-cotn">
-                                                <h5 class="reviewer-name">Jims Pull</h5>
-                                                <p>Traveller</p>
+                                                <h5 class="reviewer-name">{{testimonials.name}}</h5>
+                                                <p>{{testimonials.designation}}</p>
                                             </div>
                                         </div>
                                         <ul class="reviewer-rating gap-2">
@@ -1083,6 +1077,9 @@
                                 </div>
                             </div>
                         </div>
+                        {% endfor %}
+
+                        {% comment %}
                         <div class="swiper-slide">
                             <div class="testimonial-card-gamma mx-auto">
                                 <div class="testimonial-quote-icon">
@@ -1181,6 +1178,7 @@
                                 </div>
                             </div>
                         </div>
+                        {% endcomment %}
                     </div>
                 </div>
             </div>

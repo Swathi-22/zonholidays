@@ -18,6 +18,7 @@ ALLOWED_HOSTS = ["*"]
 
 INSTALLED_APPS = [
     'versatileimagefield',
+    'tinymce',
 
 
     'django.contrib.admin',
