@@ -17,9 +17,9 @@
 header .header-style-two .main-nav ul li.has-child-menu:after {
     position: absolute;
     right: 9px;
-    color: #973c35;
+    color: #fff;
     content: "";
-    background: #162b32 !important;
+    background: #ea0607 !important;
     height: 4px;
     width: 4px;
     border-radius: 50%;
@@ -30,7 +30,7 @@ header .header-style-two .main-nav ul li.has-child-menu:after {
     --text-primary: #2d373c;
     --text-secondary: #454545;
     --text-tertiary: #666666;
-    --c-primary: #ff4838;
+    --c-primary: #ea0607;
     --f-primary: "Barlow", sans-serif;
     --f-secondary: "helveticaneue";
     --f-secondary-two: "helveticaneueregular";
@@ -224,7 +224,7 @@ select:focus {
 }
 
 input.input-field.check-in.react-datepicker-ignore-onclickoutside {
-    border: 1px solid #ff4838
+    border: 1px solid #ea0607
 }
 
 table tbody tr td,
@@ -342,7 +342,7 @@ table tfoot tr th {
     height: 50px;
     line-height: 50px;
     color: #fff;
-    background: #ff4838
+    background: #ea0607
 }
 
 .ui-datepicker-prev,
@@ -416,7 +416,7 @@ table tfoot tr th {
 .ui-datepicker-calendar thead tr th span {
     display: block;
     width: 15px;
-    color: #ff4838;
+    color: #ea0607;
     margin-bottom: 0;
     font-size: 14px;
     font-weight: 500
@@ -432,20 +432,20 @@ table tfoot tr th {
 
 .ui-state-default:hover {
     color: #fff;
-    background: #ff4838;
+    background: #ea0607;
     border-radius: 50px;
     transition: all .25s cubic-bezier(.7, -.12, .2, 1.12)
 }
 
 .ui-state-highlight {
     color: #fff;
-    background-color: #ff4838;
+    background-color: #ea0607;
     border-radius: 0
 }
 
 .ui-state-active {
     color: #fff;
-    background-color: #ff4838;
+    background-color: #ea0607;
     border-radius: 50px
 }
 
@@ -490,7 +490,7 @@ table tfoot tr th {
     }
 
     55% {
-        background-color: #ff4838
+        background-color: #ea0607
     }
 
     100% {
@@ -506,7 +506,7 @@ table tfoot tr th {
     }
 
     55% {
-        background-color: #ff4838
+        background-color: #ea0607
     }
 
     100% {
@@ -529,7 +529,7 @@ table tfoot tr th {
     display: block;
     width: 40px;
     height: 40px;
-    background-color: #ff4838;
+    background-color: #ea0607;
     animation: loaderBlock 1.2s infinite ease-in-out both
 }
 
@@ -598,7 +598,7 @@ table tfoot tr th {
 }
 
 .custom-input-group input:focus {
-    border: 1px solid #ff4838
+    border: 1px solid #ea0607
 }
 
 .custom-input-group select {
@@ -614,7 +614,7 @@ table tfoot tr th {
 }
 
 .custom-input-group select:focus {
-    border: 1px solid #ff4838
+    border: 1px solid #ea0607
 }
 
 .custom-input-group textarea {
@@ -625,14 +625,14 @@ table tfoot tr th {
 }
 
 .custom-input-group textarea:focus {
-    border: 1px solid #ff4838
+    border: 1px solid #ea0607
 }
 
 .custom-input-group button[type=submit] {
     font-weight: 700;
     font-size: 16px;
     color: #fff;
-    background: #ff4838;
+    background: #ea0607;
     border-radius: 100px;
     border: none;
     padding: 14px 38px;
@@ -641,7 +641,7 @@ table tfoot tr th {
 
 .custom-input-group button[type=submit]:hover {
     background: #162b32;
-    color: #ff4838
+    color: #ea0607
 }
 
 .section-head-alpha {
@@ -684,10 +684,10 @@ table tfoot tr th {
     font-weight: 600;
     font-size: 18px;
     color: #fff;
-    background: #ff4838;
+    background: #ea0607;
     display: inline-block;
     padding: 10px 25px;
-    border: 2px solid #ff4838;
+    border: 2px solid #ea0607;
     box-sizing: border-box;
     transition: all .4s;
     border-radius: 5px
@@ -695,23 +695,23 @@ table tfoot tr th {
 
 .button-fill-primary:hover {
     background: 0 0;
-    color: #ff4838
+    color: #ea0607
 }
 
 .button-outlined-primary {
     font-weight: 600;
     font-size: 18px;
-    color: #ff4838;
+    color: #ea0607;
     background: 0 0;
     display: inline-block;
     padding: 9px 25px;
-    border: 2px solid #ff4838;
+    border: 2px solid #ea0607;
     box-sizing: border-box;
     transition: all .4s
 }
 
 .button-outlined-primary:hover {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff
 }
 
@@ -719,16 +719,16 @@ table tfoot tr th {
     font-weight: 600;
     font-size: 18px;
     color: #fff;
-    background: #ff4838;
+    background: #ea0607;
     border-radius: 30px;
     display: inline-block;
     padding: 10px 40px;
-    border: 2px solid #ff4838;
+    border: 2px solid #ea0607;
     transition: all .35s
 }
 
 .button-fill-round:hover {
-    color: #ff4838;
+    color: #ea0607;
     background: 0 0
 }
 
@@ -750,12 +750,12 @@ table tfoot tr th {
 .custom-swiper-next:hover,
 .custom-swiper-prev:hover {
     opacity: 1;
-    border: 2px solid #ff4838
+    border: 2px solid #ea0607
 }
 
 .custom-swiper-next:hover i,
 .custom-swiper-prev:hover i {
-    color: #ff4838
+    color: #ea0607
 }
 
 .custom-swiper-next i,
@@ -767,7 +767,7 @@ table tfoot tr th {
 .custom-swiper-next-sm,
 .custom-swiper-prev-sm {
     background: #fff;
-    border: 1px solid #ff4838;
+    border: 1px solid #ea0607;
     box-sizing: border-box;
     width: 32px;
     height: 32px;
@@ -779,7 +779,7 @@ table tfoot tr th {
 
 .custom-swiper-next-sm i,
 .custom-swiper-prev-sm i {
-    color: #ff4838;
+    color: #ea0607;
     font-size: 14px
 }
 
@@ -816,7 +816,7 @@ table tfoot tr th {
 .breadcrumb-style-one .breadcrumb-items .breadcrumb-item.active::before {
     content: "\f280";
     font-family: bootstrap-icons !important;
-    color: #ff4838;
+    color: #ea0607;
     font-size: 12px;
     transform: translateY(50%);
     padding-right: 12px;
@@ -836,7 +836,7 @@ table tfoot tr th {
 }
 
 .pagination-style-one .page-item .page-link:hover {
-    background-color: #ff4838;
+    background-color: #ea0607;
     color: #fff
 }
 
@@ -844,19 +844,19 @@ table tfoot tr th {
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    background: #ff4838;
+    background: #ea0607;
     color: #fff;
-    border-color: #ff4838
+    border-color: #ea0607
 }
 
 .pagination-style-one .page-item.active a {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff;
-    border-color: #ff4838
+    border-color: #ea0607
 }
 
 .pagination-style-one .page-item a {
-    border: 1px solid #ff4838;
+    border: 1px solid #ea0607;
     box-sizing: border-box;
     border-radius: 5px;
     font-weight: 700;
@@ -898,7 +898,7 @@ table tfoot tr th {
     font-weight: 700;
     font-size: 26px;
     color: #fff;
-    background: #ff4838;
+    background: #ea0607;
     border-radius: 10px;
     padding: 15px 35px;
     transition: .3s
@@ -906,7 +906,7 @@ table tfoot tr th {
 
 .error-content .error-text .error-btn a:hover {
     background: #162b32;
-    color: #ff4838
+    color: #ea0607
 }
 
 .error-content .error-text .error-btn a i {
@@ -935,7 +935,7 @@ table tfoot tr th {
     z-index: 21;
     padding: 0;
     box-shadow: 0 2px 28px 0 rgba(122, 121, 121, .1);
-    background: #162b32;
+    background: #ea0607;
     background-repeat: no-repeat;
     background-size: cover;
     animation: smooth-header .65s linear
@@ -1035,7 +1035,7 @@ table tfoot tr th {
     height: 35px;
     width: 35px;
     border-radius: 50%;
-    background: #ff4838;
+    background: #ea0607;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -1056,7 +1056,7 @@ table tfoot tr th {
 }
 
 .category-sidebar-wrapper .category-sidebar .category-box:hover {
-    background: #ff4838
+    background: #ea0607
 }
 
 .category-sidebar-wrapper .category-sidebar .category-box:hover h5 {
@@ -1110,12 +1110,12 @@ table tfoot tr th {
     justify-content: center;
     font-size: 20px;
     cursor: pointer;
-    color: #ff4838
+    color: #ea0607
 }
 
 .sidebar-main .sidebar-list li i:hover {
     color: #fff;
-    background: #ff4838
+    background: #ea0607
 }
 
 .topbar-style-one {
@@ -1153,7 +1153,7 @@ table tfoot tr th {
     font-size: 17px;
     line-height: 20px;
     color: #fff;
-    background: #ff4838;
+    background: #ea0607;
     padding: 13px 50px
 }
 
@@ -1170,7 +1170,7 @@ table tfoot tr th {
 }
 
 .topbar-style-one .topbar-social-links li i {
-    color: #ff4838;
+    color: #ea0607;
     font-size: 20px
 }
 
@@ -1214,7 +1214,7 @@ table tfoot tr th {
     font-size: 17px;
     line-height: 20px;
     color: #fff;
-    background: #ff4838;
+    background: #ea0607;
     padding: 13px 50px
 }
 
@@ -1324,7 +1324,7 @@ header .header-style-one .main-nav ul li .sub-menu>li {
 
 header .header-style-one .main-nav ul>li a:hover {
     background: 0 0;
-    color: #ff4838 !important
+    color: #ea0607 !important
 }
 
 header .header-style-one .main-nav .fl {
@@ -1382,12 +1382,12 @@ header .header-style-one .main-nav ul li:last-child {
 }
 
 header .header-style-one .main-nav ul li:hover>a {
-    color: #ff4838
+    color: #ea0607
 }
 
 header .header-style-one .main-nav ul li:hover>a::before {
     opacity: 1;
-    background: #ff4838
+    background: #ea0607
 }
 
 header .header-style-one .main-nav ul li a {
@@ -1421,12 +1421,12 @@ header .header-style-one .main-nav ul li ul.sub-menu>li a {
 }
 
 header .header-style-one .main-nav ul li ul.sub-menu>li a.active {
-    color: #ff4838;
+    color: #ea0607;
     font-weight: 600
 }
 
 header .header-style-one .main-nav ul li ul.sub-menu>li a:hover {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff !important
 }
 
@@ -1437,7 +1437,7 @@ header .header-style-one .main-nav ul li ul.sub-menu>li a:hover::before {
 header .header-style-one .main-nav ul li.has-child-menu:after {
     position: absolute;
     right: 0;
-    color: #ff4838;
+    color: #ea0607;
     font-family: bootstrap-icons !important;
     content: "\f64d";
     font-size: 13px;
@@ -1452,7 +1452,7 @@ header .header-style-one .main-nav ul li:hover.has-child-menu:after {
 }
 
 header .header-style-one .main-nav>ul>li>a.active {
-    color: #ff4838;
+    color: #ea0607;
     font-weight: 600;
     font-size: 16px
 }
@@ -1481,7 +1481,7 @@ header .header-style-one .nav-right .nav-actions li i {
     width: 40px;
     height: 40px;
     box-shadow: 3px 5px 35px rgba(86, 68, 169, .1);
-    color: #ff4838;
+    color: #ea0607;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1491,7 +1491,7 @@ header .header-style-one .nav-right .nav-actions li i {
 }
 
 header .header-style-one .nav-right .nav-actions li i:hover {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff
 }
 
@@ -1516,7 +1516,7 @@ header .header-style-one .nav-right .nav-actions li i:hover {
 }
 
 header .header-style-two {
-    background: #162b32
+    background: #ea0607
 }
 
 header .header-style-two .main-nav ul li .sub-menu {
@@ -1548,7 +1548,7 @@ header .header-style-two .main-nav ul li .sub-menu>li {
 
 header .header-style-two .main-nav ul>li a:hover {
     background: 0 0;
-    color: #ff4838 !important
+    color: #fff !important
 }
 
 header .header-style-two .main-nav .fl {
@@ -1603,12 +1603,12 @@ header .header-style-two .main-nav ul li:last-child {
 }
 
 header .header-style-two .main-nav ul li:hover>a {
-    color: #ff4838
+    color: #ea0607
 }
 
 header .header-style-two .main-nav ul li:hover>a::before {
     opacity: 1;
-    background: #ff4838
+    background: #ea0607
 }
 
 header .header-style-two .main-nav ul li a {
@@ -1646,12 +1646,12 @@ header .header-style-two .main-nav ul li ul.sub-menu>li a {
 }
 
 header .header-style-two .main-nav ul li ul.sub-menu>li a.active {
-    color: #ff4838;
+    color: #ea0607;
     font-weight: 600
 }
 
 header .header-style-two .main-nav ul li ul.sub-menu>li a:hover {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff !important
 }
 
@@ -1662,9 +1662,9 @@ header .header-style-two .main-nav ul li ul.sub-menu>li a:hover::before {
 header .header-style-two .main-nav ul li.has-child-menu:after {
     position: absolute;
     right: 9px;
-    color: #ff4838;
+    color: #ea0607;
     content: "";
-    background: #ff4838;
+    background: #ea0607;
     height: 4px;
     width: 4px;
     border-radius: 50%;
@@ -1677,7 +1677,7 @@ header .header-style-two .main-nav ul li:hover.has-child-menu:after {
 }
 
 header .header-style-two .main-nav>ul>li>a.active {
-    color: #ff4838;
+    color: #ea0607;
     font-weight: 600;
     font-size: 16px
 }
@@ -1781,7 +1781,7 @@ header .header-style-two .nav-right .nav-right-hotline {
 header .header-style-two .nav-right .nav-right-hotline .hotline-icon i {
     color: #fff;
     font-size: 30px;
-    color: #ff4838
+    color: #ea0607
 }
 
 header .header-style-two .nav-right .nav-right-hotline .hotline-info {
@@ -1866,7 +1866,7 @@ header .header-style-three .main-nav ul li .sub-menu>li {
 
 header .header-style-three .main-nav ul>li a:hover {
     background: 0 0;
-    color: #ff4838 !important
+    color: #ea0607 !important
 }
 
 header .header-style-three .main-nav .fl {
@@ -1921,12 +1921,12 @@ header .header-style-three .main-nav ul li:last-child {
 }
 
 header .header-style-three .main-nav ul li:hover>a {
-    color: #ff4838
+    color: #ea0607
 }
 
 header .header-style-three .main-nav ul li:hover>a::before {
     opacity: 1;
-    background: #ff4838
+    background: #ea0607
 }
 
 header .header-style-three .main-nav ul li a {
@@ -1964,12 +1964,12 @@ header .header-style-three .main-nav ul li ul.sub-menu>li a {
 }
 
 header .header-style-three .main-nav ul li ul.sub-menu>li a.active {
-    color: #ff4838;
+    color: #ea0607;
     font-weight: 600
 }
 
 header .header-style-three .main-nav ul li ul.sub-menu>li a:hover {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff !important
 }
 
@@ -1980,7 +1980,7 @@ header .header-style-three .main-nav ul li ul.sub-menu>li a:hover::before {
 header .header-style-three .main-nav ul li.has-child-menu:after {
     position: absolute;
     right: 9px;
-    color: #ff4838;
+    color: #ea0607;
     content: "";
     font-family: bootstrap-icons !important;
     content: "\f64d";
@@ -1998,7 +1998,7 @@ header .header-style-three .main-nav ul li:hover.has-child-menu:after {
 }
 
 header .header-style-three .main-nav>ul>li>a.active {
-    color: #ff4838;
+    color: #ea0607;
     font-weight: 600;
     font-size: 16px
 }
@@ -2059,12 +2059,12 @@ header .header-style-three .nav-right-icons div {
 header .header-style-three .nav-right-icons div i {
     height: 30px;
     width: 30px;
-    background: #ff4838;
+    background: #ea0607;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    border: 1px solid #ff4838;
+    border: 1px solid #ea0607;
     font-size: 18px;
     border-radius: 50%;
     cursor: pointer;
@@ -2072,8 +2072,8 @@ header .header-style-three .nav-right-icons div i {
 }
 
 header .header-style-three .nav-right-icons div i:hover {
-    border: 1px solid #ff4838;
-    color: #ff4838;
+    border: 1px solid #ea0607;
+    color: #ea0607;
     background: 0 0
 }
 
@@ -2112,7 +2112,7 @@ header .header-style-three .nav-right .nav-right-hotline {
 header .header-style-three .nav-right .nav-right-hotline .hotline-icon i {
     color: #fff;
     font-size: 30px;
-    color: #ff4838
+    color: #ea0607
 }
 
 header .header-style-three .nav-right .nav-right-hotline .hotline-info {
@@ -2196,7 +2196,7 @@ header .header-style-four .main-nav ul li .sub-menu>li {
 
 header .header-style-four .main-nav ul>li a:hover {
     background: 0 0;
-    color: #ff4838 !important
+    color: #ea0607 !important
 }
 
 header .header-style-four .main-nav .fl {
@@ -2251,12 +2251,12 @@ header .header-style-four .main-nav ul li:last-child {
 }
 
 header .header-style-four .main-nav ul li:hover>a {
-    color: #ff4838
+    color: #ea0607
 }
 
 header .header-style-four .main-nav ul li:hover>a::before {
     opacity: 1;
-    background: #ff4838
+    background: #ea0607
 }
 
 header .header-style-four .main-nav ul li a {
@@ -2294,12 +2294,12 @@ header .header-style-four .main-nav ul li ul.sub-menu>li a {
 }
 
 header .header-style-four .main-nav ul li ul.sub-menu>li a.active {
-    color: #ff4838;
+    color: #ea0607;
     font-weight: 600
 }
 
 header .header-style-four .main-nav ul li ul.sub-menu>li a:hover {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff !important
 }
 
@@ -2310,7 +2310,7 @@ header .header-style-four .main-nav ul li ul.sub-menu>li a:hover::before {
 header .header-style-four .main-nav ul li.has-child-menu:after {
     position: absolute;
     right: 9px;
-    color: #ff4838;
+    color: #ea0607;
     content: "";
     font-family: bootstrap-icons !important;
     content: "\f64d";
@@ -2328,7 +2328,7 @@ header .header-style-four .main-nav ul li:hover.has-child-menu:after {
 }
 
 header .header-style-four .main-nav>ul>li>a.active {
-    color: #ff4838;
+    color: #ea0607;
     font-weight: 600;
     font-size: 16px
 }
@@ -2389,12 +2389,12 @@ header .header-style-four .nav-right-icons div {
 header .header-style-four .nav-right-icons div i {
     height: 30px;
     width: 30px;
-    background: #ff4838;
+    background: #ea0607;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    border: 1px solid #ff4838;
+    border: 1px solid #ea0607;
     font-size: 18px;
     border-radius: 50%;
     cursor: pointer;
@@ -2402,8 +2402,8 @@ header .header-style-four .nav-right-icons div i {
 }
 
 header .header-style-four .nav-right-icons div i:hover {
-    border: 1px solid #ff4838;
-    color: #ff4838;
+    border: 1px solid #ea0607;
+    color: #ea0607;
     background: 0 0
 }
 
@@ -2442,7 +2442,7 @@ header .header-style-four .nav-right .nav-right-hotline {
 header .header-style-four .nav-right .nav-right-hotline .hotline-icon i {
     color: #fff;
     font-size: 30px;
-    color: #ff4838
+    color: #ea0607
 }
 
 header .header-style-four .nav-right .nav-right-hotline .hotline-info {
@@ -2489,7 +2489,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ff4838;
+    color: #ea0607;
     font-size: 18px;
     border-radius: 50%;
     cursor: pointer
@@ -2507,7 +2507,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .multi-main-searchber .search-box-single .searchbox-icon {
     font-size: 25px;
-    color: #ff4838;
+    color: #ea0607;
     padding-right: 15px
 }
 
@@ -2566,7 +2566,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-size: 18px;
     color: #fff;
     border: none;
-    background: #ff4838;
+    background: #ea0607;
     display: block;
     width: 100%;
     height: 100%;
@@ -2579,7 +2579,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .select2-results__option--highlighted[aria-selected] {
-    background-color: #ff4838 !important;
+    background-color: #ea0607 !important;
     color: #fff
 }
 
@@ -2706,7 +2706,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-size: 85px;
     line-height: 95px;
     letter-spacing: .05em;
-    color: #ff4838;
+    color: #ea0607;
     opacity: 0;
     transform: translateY(80px);
     transition: all 800ms ease;
@@ -2714,7 +2714,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .hero-style-one .hero-single-slide .hero-content-bg .hero-content h2 span {
-    -webkit-text-stroke: 2px #ff4838;
+    -webkit-text-stroke: 2px #ea0607;
     -webkit-text-fill-color: transparent
 }
 
@@ -2773,7 +2773,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .hero-two-pagination span.swiper-pagination-bullet-active {
-    -webkit-text-stroke: 1px #ff4838
+    -webkit-text-stroke: 1px #ea0607
 }
 
 .hero-style-two {
@@ -2796,7 +2796,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .hero-style-two .hero-main-wrapper .single-hero-slide .hero-content .featured-location i {
-    color: #ff4838;
+    color: #ea0607;
     margin-right: 5px
 }
 
@@ -2810,7 +2810,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .hero-style-two .hero-main-wrapper .single-hero-slide .hero-content .hero-title span {
-    color: #ff4838;
+    color: #ea0607;
     margin-left: 10px
 }
 
@@ -2823,7 +2823,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .hero-style-two .hero-main-wrapper .single-hero-slide .hero-content .featured-price span {
-    color: #ff4838;
+    color: #ea0607;
     font-size: 20px
 }
 
@@ -3315,7 +3315,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ff4838;
+    color: #ea0607;
     font-size: 18px;
     border-radius: 50%;
     cursor: pointer
@@ -3333,7 +3333,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .multi-main-searchber .search-box-single .searchbox-icon {
     font-size: 25px;
-    color: #ff4838;
+    color: #ea0607;
     padding-right: 15px
 }
 
@@ -3398,7 +3398,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-size: 18px;
     color: #fff;
     border: none;
-    background: #ff4838;
+    background: #ea0607;
     display: block;
     width: 100%;
     height: 100%;
@@ -3409,7 +3409,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 .multi-main-searchber .main-form-submit button:hover {
     background: 0 0;
     color: red;
-    border: 1px solid #ff4838
+    border: 1px solid #ea0607
 }
 
 .package-card-alpha {
@@ -3419,7 +3419,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .package-card-alpha:hover .package-card-body .p-card-bottom .book-btn a {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff
 }
 
@@ -3441,7 +3441,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-size: 16px;
     text-transform: capitalize;
     color: #fff;
-    background: #ff4838;
+    background: #ea0607;
     border-radius: 3px;
     position: absolute;
     padding: 9px 32px;
@@ -3482,9 +3482,9 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-weight: 600;
     font-size: 15px;
     text-transform: uppercase;
-    color: #ff4838;
+    color: #ea0607;
     background: #fff;
-    border: 1px solid #ff4838;
+    border: 1px solid #ea0607;
     box-sizing: border-box;
     border-radius: 5px;
     padding: 8px 16px;
@@ -3497,7 +3497,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .package-card-alpha .package-card-body .p-card-bottom .p-card-info h6 {
-    color: #ff4838;
+    color: #ea0607;
     font-weight: 800;
     font-size: 20px;
     line-height: 1
@@ -3541,7 +3541,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-weight: 600;
     font-size: 16px;
     text-transform: capitalize;
-    color: #ff4838;
+    color: #ea0607;
     background: #fff;
     box-shadow: 3px 5px 35px rgba(86, 68, 169, .1);
     border-radius: 30px;
@@ -3561,7 +3561,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .package-card-beta .package-thumb .card-lavel:hover {
-    background-color: #ff4838;
+    background-color: #ea0607;
     color: #fff
 }
 
@@ -3609,9 +3609,9 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-weight: 600;
     font-size: 15px;
     text-transform: uppercase;
-    color: #ff4838;
+    color: #ea0607;
     background: #fff;
-    border: 1px solid #ff4838;
+    border: 1px solid #ea0607;
     box-sizing: border-box;
     border-radius: 30px;
     padding: 8px 16px;
@@ -3644,7 +3644,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .package-card-beta .package-card-body .p-card-bottom .p-card-info h6 {
-    color: #ff4838;
+    color: #ea0607;
     font-weight: 800;
     font-size: 20px;
     line-height: 1
@@ -3699,7 +3699,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-weight: 600;
     font-size: 16px;
     text-transform: capitalize;
-    background-color: #ff4838;
+    background-color: #ea0607;
     color: #fff;
     box-shadow: 3px 5px 35px rgba(86, 68, 169, .1);
     border-radius: 30px;
@@ -3720,7 +3720,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .package-card-delta .package-thumb .card-lavel:hover {
-    color: #ff4838;
+    color: #ea0607;
     background-color: #fff
 }
 
@@ -3768,9 +3768,9 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-weight: 600;
     font-size: 15px;
     text-transform: uppercase;
-    color: #ff4838;
+    color: #ea0607;
     background: #fff;
-    border: 1px solid #ff4838;
+    border: 1px solid #ea0607;
     box-sizing: border-box;
     border-radius: 30px;
     padding: 8px 16px;
@@ -3803,7 +3803,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .package-card-delta .package-card-body .p-card-bottom .p-card-info h6 {
-    color: #ff4838;
+    color: #ea0607;
     font-weight: 800;
     font-size: 20px;
     line-height: 1
@@ -3837,7 +3837,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .package-card-gamma:hover .package-card-body .p-card-bottom .book-btn a {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff
 }
 
@@ -3861,7 +3861,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-size: 16px;
     text-transform: capitalize;
     color: #fff;
-    background: #ff4838;
+    background: #ea0607;
     border-radius: 3px;
     padding: 9px 32px;
     clip-path: polygon(9% 0, 90% 3%, 100% 94%, 0 100%);
@@ -3897,9 +3897,9 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-weight: 600;
     font-size: 15px;
     text-transform: uppercase;
-    color: #ff4838;
+    color: #ea0607;
     background: #fff;
-    border: 1px solid #ff4838;
+    border: 1px solid #ea0607;
     box-sizing: border-box;
     border-radius: 5px;
     padding: 8px 16px;
@@ -3916,7 +3916,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .package-card-gamma .package-card-body .p-card-bottom .p-card-info h6 {
-    color: #ff4838;
+    color: #ea0607;
     font-weight: 800;
     font-size: 20px;
     line-height: 1
@@ -3958,8 +3958,8 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     border-radius: 50%;
     font-weight: 700;
     font-size: 20px;
-    color: #ff4838;
-    border: 2px solid #ff4838;
+    color: #ea0607;
+    border: 2px solid #ea0607;
     box-sizing: border-box;
     padding: 0;
     font-family: var(--f-secondary)
@@ -3970,7 +3970,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     width: 87px;
     font-size: 28px;
     color: #fff;
-    background: #ff4838
+    background: #ea0607
 }
 
 .offer-switch-button2 {
@@ -3992,8 +3992,8 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     border-radius: 5px;
     font-weight: 700;
     font-size: 20px;
-    color: #ff4838;
-    border: 2px solid #ff4838;
+    color: #ea0607;
+    border: 2px solid #ea0607;
     box-sizing: border-box;
     padding: 0;
     font-family: var(--f-secondary);
@@ -4002,7 +4002,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .offer-switch-button2 .nav-item .nav-link.active {
     color: #fff;
-    background: #ff4838;
+    background: #ea0607;
     position: relative
 }
 
@@ -4019,7 +4019,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .offer-switch-button2 .nav-item .nav-link:hover {
     color: #fff;
-    background: #ff4838
+    background: #ea0607
 }
 
 .offer-switch-button3 {
@@ -4051,8 +4051,8 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .offer-switch-button3 .nav-item .nav-link.active {
     color: #fff;
-    background: #ff4838;
-    border: 1px solid #ff4838;
+    background: #ea0607;
+    border: 1px solid #ea0607;
     position: relative
 }
 
@@ -4069,8 +4069,8 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .offer-switch-button3 .nav-item .nav-link:hover {
     color: #fff;
-    background: #ff4838;
-    border: 1px solid #ff4838
+    background: #ea0607;
+    border: 1px solid #ea0607
 }
 
 .package-sidebar .package-widget-style-2 {
@@ -4094,7 +4094,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 .package-sidebar .package-widget-style-2 .widget-lavel {
     font-weight: 700;
     font-size: 25px;
-    color: #ff4838
+    color: #ea0607
 }
 
 .package-sidebar .package-widget-style-2 .widget-lavel span {
@@ -4141,8 +4141,8 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .package-sidebar .widget-tag-cloud .tag-cloud a:hover {
-    border-color: #ff4838;
-    background: #ff4838;
+    border-color: #ea0607;
+    background: #ea0607;
     color: #fff
 }
 
@@ -4174,7 +4174,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-weight: 700;
     font-size: 14px;
     color: #fff;
-    background: #ff4838;
+    background: #ea0607;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 0 44px 44px 0;
@@ -4205,7 +4205,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .package-sidebar .widget-duration .deration-check label:hover {
-    color: #ff4838
+    color: #ea0607
 }
 
 .package-sidebar .widget-duration .deration-check label i {
@@ -4227,8 +4227,8 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .package-sidebar .widget-duration .deration-check input:checked {
-    background-color: #ff4838;
-    border-color: #ff4838
+    background-color: #ea0607;
+    border-color: #ea0607
 }
 
 .package-sidebar .widget-tour-categoris .category-check {
@@ -4251,7 +4251,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .package-sidebar .widget-tour-categoris .category-check label:hover {
-    color: #ff4838
+    color: #ea0607
 }
 
 .package-sidebar .widget-tour-categoris .category-check label i {
@@ -4272,8 +4272,8 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .package-sidebar .widget-tour-categoris input:checked {
-    background-color: #ff4838;
-    border-color: #ff4838
+    background-color: #ea0607;
+    border-color: #ea0607
 }
 
 .package-sidebar .widget-recent-package-entries .package-sm {
@@ -4304,7 +4304,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .package-sidebar .widget-recent-package-entries .package-sm .info h6:hover {
-    color: #ff4838
+    color: #ea0607
 }
 
 .package-sidebar .widget-recent-package-entries .package-sm .info h6 a {
@@ -4322,7 +4322,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-size: 16px;
     line-height: 16px;
     text-transform: capitalize;
-    color: #ff4838
+    color: #ea0607
 }
 
 .package-sidebar .widget-gallary ul {
@@ -4417,7 +4417,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 .tour-package-details .pd-header .header-bottom .pd-lavel .location {
     font-weight: 600;
     font-size: 20px;
-    color: #ff4838
+    color: #ea0607
 }
 
 .tour-package-details .pd-header .header-bottom .pd-lavel .rating li {
@@ -4426,7 +4426,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .tour-package-details .pd-header .header-bottom .pd-lavel .rating li i {
     font-size: 17px;
-    color: #ff4838
+    color: #ea0607
 }
 
 .tour-package-details .pd-header .header-bottom .pd-lavel .rating li:last-child {
@@ -4453,7 +4453,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .tour-package-details .package-details-tabs .tab-switchers .nav-item .nav-link {
-    border: 2px solid #ff4838;
+    border: 2px solid #ea0607;
     box-sizing: border-box;
     border-radius: 30px;
     font-weight: 600;
@@ -4464,7 +4464,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .tour-package-details .package-details-tabs .tab-switchers .nav-item .nav-link:hover {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff
 }
 
@@ -4473,7 +4473,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .tour-package-details .package-details-tabs .tab-switchers .nav-item .nav-link.active {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff
 }
 
@@ -4570,7 +4570,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .tour-package-details .package-info-tab .p-info-featured-img .featured-video .video-overlay .play-icon i {
     font-size: 20px;
-    color: #ff4838;
+    color: #ea0607;
     position: relative;
     z-index: 2
 }
@@ -4612,7 +4612,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 .tour-package-details .package-info-tab .package-info-table tr th .excluded-list li i,
 .tour-package-details .package-info-tab .package-info-table tr td .excluded-list li i {
     margin-right: 15px;
-    color: #ff4838
+    color: #ea0607
 }
 
 .tour-package-details .package-info-tab .package-info-table tr th .included-list li,
@@ -4658,7 +4658,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 .tour-package-details .package-info-tab .rating-overview-row .total-rating h3 {
     font-weight: 800;
     font-size: 50px;
-    color: #ff4838
+    color: #ea0607
 }
 
 .tour-package-details .package-info-tab .rating-overview-row .total-rating h5 {
@@ -4708,7 +4708,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #ff4838
+    background: #ea0607
 }
 
 .tour-package-details .package-info-tab .comment-section {
@@ -4753,7 +4753,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 .tour-package-details .package-plan-tab .plans-accordion .plans-accordion-single .accordion-button .paln-index-circle {
     width: 75px;
     height: 75px;
-    background: #ff4838;
+    background: #ea0607;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -4778,7 +4778,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 .tour-package-details .package-plan-tab .plans-accordion .plans-accordion-single .accordion-button .plan-title h6 {
     font-weight: 500;
     font-size: 16px;
-    color: #ff4838;
+    color: #ea0607;
     padding-top: 8px
 }
 
@@ -4799,7 +4799,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 .tour-package-details .package-plan-tab .plans-accordion .plans-accordion-single .plan-info ul li {
     font-weight: 500;
     font-size: 16px;
-    color: #ff4838;
+    color: #ea0607;
     padding-top: 5px
 }
 
@@ -4837,14 +4837,14 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .destination-style-one .custom-swiper-next,
 .destination-style-one .custom-swiper-prev {
-    border: 1px solid #ff4838 !important;
+    border: 1px solid #ea0607 !important;
     opacity: .5;
     transition: all .2s
 }
 
 .destination-style-one .custom-swiper-next i,
 .destination-style-one .custom-swiper-prev i {
-    color: #ff4838 !important
+    color: #ea0607 !important
 }
 
 .destination-style-one .custom-swiper-next:hover,
@@ -4939,7 +4939,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     transform: translateY(-50%);
     height: 15px;
     width: 2px;
-    background: #ff4838
+    background: #ea0607
 }
 
 .destination-card-style-one .d-card-overlay .d-card-content .d-rating {
@@ -4961,7 +4961,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .destination-card-style-one .d-card-overlay .d-card-content .d-rating li i {
     font-size: 13px;
-    color: #ff4838
+    color: #ea0607
 }
 
 .destination-style-two .testi-pagination {
@@ -4987,7 +4987,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 .destination-style-two .testi-pagination span.swiper-pagination-bullet-active {
     width: 21px;
     height: 21px;
-    border-color: #ff4838
+    border-color: #ea0607
 }
 
 .destination-style-two .testi-pagination span.swiper-pagination-bullet-active::before {
@@ -4996,7 +4996,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     width: 9px;
     height: 9px;
     border-radius: 50%;
-    background: #ff4838;
+    background: #ea0607;
     left: 4px;
     top: 4px
 }
@@ -5055,7 +5055,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     content: "";
     height: 3px;
     width: 83px;
-    background: #ff4838;
+    background: #ea0607;
     left: 50%;
     transform: translateX(-50%);
     bottom: 0;
@@ -5142,7 +5142,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .destination-details .dd-body .destination-overview-table .overview-table tr td {
-    color: #ff4838
+    color: #ea0607
 }
 
 .destination-details .dd-body .destination-map {
@@ -5264,7 +5264,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .newslatter-wrapper .newslatter-side h2 span {
-    color: #ff4838
+    color: #ea0607
 }
 
 .newslatter-wrapper .newslatter-side p {
@@ -5299,7 +5299,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     text-transform: uppercase;
     color: #fff;
     font-family: var(--f-secondary);
-    background: #ff4838;
+    background: #ea0607;
     border-radius: 0;
     position: absolute;
     top: 5px;
@@ -5317,7 +5317,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 .newslatter-wrapper .achievement-counter-side .achievement-box-style-one {
     text-align: center;
     min-height: 215px;
-    border: 2px solid #ff4838;
+    border: 2px solid #ea0607;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -5378,7 +5378,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .newslatter-style-two .newslatter-offer-side .newslatter-offer-content h2 span {
-    color: #ff4838
+    color: #ea0607
 }
 
 .newslatter-style-two .newslatter-offer-side .newslatter-offer-content h6 {
@@ -5415,7 +5415,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-size: 40px;
     line-height: 57px;
     text-transform: uppercase;
-    color: #ff4838;
+    color: #ea0607;
     font-family: var(--f-secondary)
 }
 
@@ -5453,7 +5453,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     text-transform: uppercase;
     color: #fff;
     font-family: var(--f-secondary);
-    background: #ff4838;
+    background: #ea0607;
     border-radius: 0 50px 50px 0;
     height: 100%;
     padding: 0 30px;
@@ -5462,8 +5462,8 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .newslatter-style-two .newslatter-form-side .newslatter-form-content .newslatter-form-wrap button:hover {
     background: 0 0;
-    border: 2px solid #ff4838;
-    color: #ff4838
+    border: 2px solid #ea0607;
+    color: #ea0607
 }
 
 .gallery-wrapper {
@@ -5576,8 +5576,8 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 .gallary-group .gallary-group-header .gallary-arrows .gallary-button-prev i {
     height: 25px;
     width: 25px;
-    color: #ff4838;
-    border: 1px solid #ff4838;
+    color: #ea0607;
+    border: 1px solid #ea0607;
     border-radius: 50%;
     text-align: center;
     line-height: 25px;
@@ -5588,7 +5588,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .gallary-group .gallary-group-header .gallary-arrows .gallary-button-next i:hover,
 .gallary-group .gallary-group-header .gallary-arrows .gallary-button-prev i:hover {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff
 }
 
@@ -5645,7 +5645,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .testimonial-card-alpha:hover .testimonial-body .testimonial-bottom .reviewer-info .reviewer-name {
-    color: #ff4838
+    color: #ea0607
 }
 
 .testimonial-card-alpha:hover .testimonial-body .testimonial-bottom .reviewer-info h6 {
@@ -5751,7 +5751,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .testimonial-card-alpha .testimonial-body .testimonial-bottom .testimonial-rating li i {
     font-size: 16px;
-    color: #ff4838
+    color: #ea0607
 }
 
 .testimonial-style-two {
@@ -6017,7 +6017,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .slick-slide.slick-center .slider-item .single-thumb img {
-    border: 2px solid #ff4838;
+    border: 2px solid #ea0607;
     border-radius: 50%
 }
 
@@ -6075,7 +6075,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .guide-card-alpha .guide-image .guide-social-links li a:hover {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff
 }
 
@@ -6175,7 +6175,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .guide-card-beta .guide-image .guide-social-links li a:hover {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff
 }
 
@@ -6240,7 +6240,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     text-transform: capitalize;
     color: #fff;
     display: inline-block;
-    background: #ff4838;
+    background: #ea0607;
     border-radius: 100px;
     padding: 6px 22px;
     transition: all .3s
@@ -6280,7 +6280,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .guide-card-gamma .guide-image .guide-social-links li a:hover {
-    background: #ff4838;
+    background: #ea0607;
     color: #fff
 }
 
@@ -6436,7 +6436,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-size: 14px;
     color: #fff;
     display: inline-block;
-    background: #ff4838;
+    background: #ea0607;
     box-shadow: 0 0 15px rgba(206, 62, 38, .1);
     border-radius: 3px;
     padding: 6.5px 9px
@@ -6464,7 +6464,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .blog-card-alpha .blog-content .blog-body-top a i {
-    color: #ff4838;
+    color: #ea0607;
     margin-right: 5px
 }
 
@@ -6517,7 +6517,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-size: 15px;
     color: #fff;
     display: inline-block;
-    background: #ff4838;
+    background: #ea0607;
     box-shadow: 0 0 15px rgba(206, 62, 38, .1);
     border-radius: 3px;
     padding: 4px 20px;
@@ -6546,7 +6546,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .blog-card-gamma .blog-content .blog-body-top a i {
-    color: #ff4838;
+    color: #ea0607;
     margin-right: 5px
 }
 
@@ -6629,7 +6629,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .blog-card-beta .blog-content .blog-body-top a i {
-    color: #ff4838;
+    color: #ea0607;
     margin-right: 5px
 }
 
@@ -6688,7 +6688,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-size: 15px;
     color: #fff;
     display: inline-block;
-    background: #ff4838;
+    background: #ea0607;
     box-shadow: 0 0 15px rgba(206, 62, 38, .1);
     border-radius: 3px;
     padding: 7px 20px;
@@ -6717,7 +6717,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .blog-card-gamma-full .blog-content .blog-body-top a i {
-    color: #ff4838;
+    color: #ea0607;
     margin-right: 5px
 }
 
@@ -6782,7 +6782,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-weight: 700;
     font-size: 14px;
     color: #fff;
-    background: #ff4838;
+    background: #ea0607;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 0 44px 44px 0;
@@ -6810,7 +6810,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .blog-sidebar .widget-categories ul li a:hover {
-    color: #ff4838
+    color: #ea0607
 }
 
 .blog-sidebar .widget-categories ul li a:hover h6 {
@@ -6852,8 +6852,8 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .blog-sidebar .widget-tag-cloud .tag-cloud a:hover {
-    border-color: #ff4838;
-    background: #ff4838;
+    border-color: #ea0607;
+    background: #ea0607;
     color: #fff
 }
 
@@ -6877,7 +6877,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .blog-sidebar .widget-recent-entries-custom ul li:hover .wb h6 {
-    color: #ff4838
+    color: #ea0607
 }
 
 .blog-sidebar .widget-recent-entries-custom ul li .wi {
@@ -6924,7 +6924,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .blog-sidebar .widget-recent-entries-custom ul li .wb .wb-info span i {
     margin-right: 5px;
-    color: #ff4838
+    color: #ea0607
 }
 
 .blog-details .post-thumb {
@@ -6962,11 +6962,11 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .blog-details .post-header .post-meta a:hover {
-    color: #ff4838
+    color: #ea0607
 }
 
 .blog-details .post-header .post-meta a i {
-    color: #ff4838;
+    color: #ea0607;
     margin-right: 3px
 }
 
@@ -7052,7 +7052,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .blog-details .post-footer .post-switcher:hover {
-    color: #ff4838
+    color: #ea0607
 }
 
 .blog-details .post-footer .post-switcher.prev-post i {
@@ -7113,7 +7113,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 .comment-section .comment-list .single-comment .comment .info span {
     font-size: 14px;
     text-transform: capitalize;
-    color: #ff4838
+    color: #ea0607
 }
 
 .comment-section .comment-list .single-comment .comment .rating li {
@@ -7122,7 +7122,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .comment-section .comment-list .single-comment .comment .rating li i {
     font-size: 17px;
-    color: #ff4838
+    color: #ea0607
 }
 
 .comment-section .comment-list .single-comment .comment .rating li:last-child {
@@ -7149,7 +7149,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .comment-section .comment-list .single-comment .comment .reply-btn a:hover {
-    color: #ff4838
+    color: #ea0607
 }
 
 .comment-section .comment-list .single-comment .comment .reply-btn a i {
@@ -7170,7 +7170,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .comment-section .comment-btn a:hover {
-    color: #ff4838
+    color: #ea0607
 }
 
 .comment-form {
@@ -7200,7 +7200,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .comment-form .form-rating li i {
     font-size: 20px;
-    color: #ff4838
+    color: #ea0607
 }
 
 .footer-area .footer-main-wrapper {
@@ -7263,10 +7263,10 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     display: inline-flex;
     width: 37.5px;
     height: 37.5px;
-    background: #ff4838;
+    background: #ea0607;
     box-shadow: 0 2px 15px rgba(0, 0, 0, .06);
     border-radius: 34px;
-    border: 1px solid #ff4838;
+    border: 1px solid #ea0607;
     justify-content: center;
     align-items: center;
     color: #fff;
@@ -7275,7 +7275,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .footer-area .footer-main-wrapper .footer-about .footer-social-wrap .footer-social-links li a:hover {
     background: 0 0;
-    color: #ff4838
+    color: #ea0607
 }
 
 .footer-area .footer-main-wrapper .footer-about .footer-social-wrap .footer-social-links li a:hover i {
@@ -7329,7 +7329,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     left: -12px;
     height: 5px;
     width: 5px;
-    background: #ff4838;
+    background: #ea0607;
     border-radius: 50%;
     opacity: 0;
     transition: all .35s
@@ -7439,7 +7439,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     left: -15px;
     top: 50%;
     transform: translateY(-50%);
-    background: #ff4838;
+    background: #ea0607;
     height: 12px;
     width: 1px
 }
@@ -7503,7 +7503,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .world-map-area .world-map-wrap .single-location .location-icon i {
     font-size: 30px;
-    color: #ff4838;
+    color: #ea0607;
     cursor: pointer
 }
 
@@ -7638,7 +7638,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .about-main-wrappper .about-wrap-title span {
-    color: #ff4838
+    color: #ea0607
 }
 
 .about-main-wrappper .about-image img,
@@ -7661,7 +7661,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 .about-main-wrappper .about-tab-wrap .about-tab-switcher .nav-item .nav-link.active {
     background: #fff;
     box-shadow: 3px 5px 35px rgba(86, 68, 169, .1);
-    color: #ff4838
+    color: #ea0607
 }
 
 .about-main-wrappper .about-tab-wrap .about-tab-switcher .nav-item .nav-link h3 {
@@ -7716,7 +7716,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     font-weight: 800;
     font-size: 35px;
     letter-spacing: .03em;
-    color: #ff4838;
+    color: #ea0607;
     transition: all .3s
 }
 
@@ -7724,7 +7724,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     padding-top: 7px;
     font-weight: 500;
     font-size: 18px;
-    color: #ff4838;
+    color: #ea0607;
     transition: all .3s
 }
 
@@ -7759,7 +7759,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
     left: 0;
     width: 80px;
     height: 3px;
-    background: linear-gradient(90deg, #FF4838 46.35%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90deg, #ea0607 46.35%, rgba(255, 255, 255, 0) 100%);
     border-radius: 5px
 }
 
@@ -7846,7 +7846,7 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 }
 
 .faq-wrapper .faqs h2 span {
-    color: #ff4838
+    color: #ea0607
 }
 
 .faq-wrapper .faq-sidebar .faq-topics {
@@ -7892,8 +7892,8 @@ header .header-style-four .nav-right .nav-right-hotline .hotline-info h6 a {
 
 .faq-wrapper .faq-sidebar .faq-topics .radio-group input:checked {
     background-image: none;
-    border-color: #ff4838;
-    background: #ff4838
+    border-color: #ea0607;
+    background: #ea0607
 }
 
 .faq-wrapper .faq-sidebar .faq-form {
